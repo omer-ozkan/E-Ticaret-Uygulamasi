@@ -1,0 +1,460 @@
+<app-blank pageTitle="Ana Sayfa"  [breadcrumbs]="[]" ></app-blank>
+
+<div class="page-header d-flex justify-content-between align-items-center">
+  <h1 class="page-title">Gösterge Paneli</h1>
+  <div class="d-flex header-actions">
+            <button class="btn btn-sm btn-outline-secondary me-2">
+          <span class="material-symbols-outlined">file_download</span> Dışa Aktar
+        </button>
+    <button class="btn btn-sm btn-primary">
+      <span class="material-symbols-outlined">refresh</span> Yenile
+    </button>
+  </div>
+</div>
+
+<!-- Stats Cards Row -->
+<div class="row g-3 mb-4">
+  <div class="col-md-6 col-lg-3">
+    <div class="card stat-card h-100">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <h6 class="card-subtitle text-muted">Toplam Gelir</h6>
+            <h4 class="card-title mt-2">₺125,430</h4>
+            <div class="stat-change positive">
+              <span class="material-symbols-outlined">trending_up</span>
+              <span>+12.5%</span>
+            </div>
+          </div>
+          <div class="stat-icon bg-primary-light">
+            <span class="material-symbols-outlined text-primary"
+              >attach_money</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card stat-card h-100">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <h6 class="card-subtitle text-muted">Toplam Sipariş</h6>
+            <h4 class="card-title mt-2">1,247</h4>
+            <div class="stat-change positive">
+              <span class="material-symbols-outlined">trending_up</span>
+              <span>+8.3%</span>
+            </div>
+          </div>
+          <div class="stat-icon bg-success-light">
+            <span class="material-symbols-outlined text-success"
+              >shopping_cart</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card stat-card h-100">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <h6 class="card-subtitle text-muted">Toplam Ürün</h6>
+            <h4 class="card-title mt-2">856</h4>
+            <div class="stat-change positive">
+              <span class="material-symbols-outlined">trending_up</span>
+              <span>+15.7%</span>
+            </div>
+          </div>
+          <div class="stat-icon bg-info-light">
+            <span class="material-symbols-outlined text-info">person_add</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card stat-card h-100">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <h6 class="card-subtitle text-muted">Dönüşüm Oranı</h6>
+            <h4 class="card-title mt-2">24.8%</h4>
+            <div class="stat-change negative">
+              <span class="material-symbols-outlined">trending_down</span>
+              <span>-2.1%</span>
+            </div>
+          </div>
+          <div class="stat-icon bg-warning-light">
+            <span class="material-symbols-outlined text-warning"
+              >auto_graph</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Recent Orders & Activity Row -->
+<div class="row g-3 mb-4">
+  <!-- Recent Orders -->
+  <div class="col-lg-8">
+    <div class="card h-100">
+      <div
+        class="card-header d-flex justify-content-between align-items-center"
+      >
+        <h5 class="card-title mb-0">Son Siparişler</h5>
+        <a href="#" class="btn btn-sm btn-link">Tümünü Gör</a>
+      </div>
+      <div class="card-body p-0">
+        <div class="table-responsive">
+          <table class="table table-hover orders-table">
+            <thead>
+              <tr>
+                <th scope="col">Sipariş</th>
+                <th scope="col">Müşteri</th>
+                <th scope="col">Durum</th>
+                <th scope="col">Tarih</th>
+                <th scope="col">Tutar</th>
+                <th scope="col">İşlemler</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#ORD-7532</td>
+                <td>Ömer Özkan</td>
+                <td><span class="badge bg-success">Tamamlandı</span></td>
+                <td>Apr 21, 2025</td>
+                <td>$142.25</td>
+                <td>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">visibility</span>
+                  </button>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">edit</span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>#ORD-7531</td>
+                <td>Ayşe Yılmaz</td>
+                <td>
+                  <span class="badge bg-warning text-dark">İşleniyor</span>
+                </td>
+                <td>Apr 20, 2025</td>
+                <td>$356.00</td>
+                <td>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">visibility</span>
+                  </button>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">edit</span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>#ORD-7530</td>
+                <td>Mehmet Demir</td>
+                <td><span class="badge bg-success">Tamamlandı</span></td>
+                <td>Apr 19, 2025</td>
+                <td>$87.50</td>
+                <td>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">visibility</span>
+                  </button>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">edit</span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>#ORD-7529</td>
+                <td>Fatma Kaya</td>
+                <td><span class="badge bg-danger">İptal Edildi</span></td>
+                <td>Apr 18, 2025</td>
+                <td>$213.95</td>
+                <td>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">visibility</span>
+                  </button>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">edit</span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>#ORD-7528</td>
+                <td>Ali Çelik</td>
+                <td><span class="badge bg-primary">Kargolandı</span></td>
+                <td>Apr 17, 2025</td>
+                <td>$451.75</td>
+                <td>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">visibility</span>
+                  </button>
+                  <button class="btn btn-sm btn-icon">
+                    <span class="material-symbols-outlined">edit</span>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Activity -->
+  <div class="col-lg-4">
+    <div class="card h-100">
+      <div
+        class="card-header d-flex justify-content-between align-items-center"
+      >
+        <h5 class="card-title mb-0">Son Aktiviteler</h5>
+        <a href="#" class="btn btn-sm btn-link">Tümünü Gör</a>
+      </div>
+      <div class="card-body">
+        <div class="activity-list">
+          <div class="activity-item">
+            <div class="activity-icon bg-primary">
+              <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
+            <div class="activity-content">
+              <div class="activity-title">Yeni sipariş alındı</div>
+              <div class="activity-subtitle">Sipariş #ORD-7532</div>
+              <div class="activity-time">10 dakika önce</div>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon bg-success">
+              <span class="material-symbols-outlined">payments</span>
+            </div>
+            <div class="activity-content">
+              <div class="activity-title">Ödeme alındı</div>
+              <div class="activity-subtitle">Ayşe Yılmaz'dan</div>
+              <div class="activity-time">25 dakika önce</div>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon bg-warning">
+              <span class="material-symbols-outlined">inventory</span>
+            </div>
+            <div class="activity-content">
+              <div class="activity-title">Düşük stok uyarısı</div>
+              <div class="activity-subtitle">
+                Ürün #PRD-235 (Kablosuz Kulaklık)
+              </div>
+              <div class="activity-time">1 saat önce</div>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon bg-info">
+              <span class="material-symbols-outlined">person_add</span>
+            </div>
+            <div class="activity-content">
+              <div class="activity-title">Yeni müşteri kaydoldu</div>
+              <div class="activity-subtitle">Ali Çelik</div>
+              <div class="activity-time">3 saat önce</div>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon bg-danger">
+              <span class="material-symbols-outlined">assignment_return</span>
+            </div>
+            <div class="activity-content">
+              <div class="activity-title">Ürün iadesi talep edildi</div>
+              <div class="activity-subtitle">Sipariş #ORD-7520</div>
+              <div class="activity-time">5 saat önce</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Top Products & Customers Row -->
+<div class="row g-3">
+  <!-- Top Products -->
+  <div class="col-lg-6">
+    <div class="card h-100">
+      <div
+        class="card-header d-flex justify-content-between align-items-center"
+      >
+        <h5 class="card-title mb-0">En İyi Ürünler</h5>
+        <a href="#" class="btn btn-sm btn-link">Tümünü Gör</a>
+      </div>
+      <div class="card-body p-0">
+        <div class="table-responsive">
+          <table class="table products-table">
+            <thead>
+              <tr>
+                <th scope="col">Ürün</th>
+                <th scope="col">Kategori</th>
+                <th scope="col">Satış</th>
+                <th scope="col">Gelir</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="product-img me-2 bg-light rounded">
+                      <span class="material-symbols-outlined text-primary"
+                        >smartphone</span
+                      >
+                    </div>
+                    <div>Smartphone Pro 12</div>
+                  </div>
+                </td>
+                <td>Elektronik</td>
+                <td>425</td>
+                <td>$127,500</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="product-img me-2 bg-light rounded">
+                      <span class="material-symbols-outlined text-success"
+                        >headphones</span
+                      >
+                    </div>
+                    <div>Kablosuz Kulaklık</div>
+                  </div>
+                </td>
+                <td>Ses</td>
+                <td>352</td>
+                <td>$28,160</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="product-img me-2 bg-light rounded">
+                      <span class="material-symbols-outlined text-warning"
+                        >watch</span
+                      >
+                    </div>
+                    <div>Akıllı Saat Serisi 5</div>
+                  </div>
+                </td>
+                <td>Giyilebilir</td>
+                <td>287</td>
+                <td>$71,750</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="product-img me-2 bg-light rounded">
+                      <span class="material-symbols-outlined text-info"
+                        >laptop_mac</span
+                      >
+                    </div>
+                    <div>Ultrabook X1</div>
+                  </div>
+                </td>
+                <td>Bilgisayarlar</td>
+                <td>156</td>
+                <td>$187,200</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Customers -->
+  <div class="col-lg-6">
+    <div class="card h-100">
+      <div
+        class="card-header d-flex justify-content-between align-items-center"
+      >
+        <h5 class="card-title mb-0">En İyi Müşteriler</h5>
+        <a href="#" class="btn btn-sm btn-link">Tümünü Gör</a>
+      </div>
+      <div class="card-body p-0">
+        <div class="table-responsive">
+          <table class="table customers-table">
+            <thead>
+              <tr>
+                <th scope="col">Müşteri</th>
+                <th scope="col">Siparişler</th>
+                <th scope="col">Harcanan</th>
+                <th scope="col">Durum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="avatar me-2">
+                      <img
+                        src="https://ui-avatars.com/api/?name=Ömer+Özkan&background=4361ee&color=fff"
+                        alt="Ömer Özkan"
+                      />
+                    </div>
+                    <div>Ömer Özkan</div>
+                  </div>
+                </td>
+                <td>42</td>
+                <td>$5,125</td>
+                <td><span class="badge bg-success">Aktif</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="avatar me-2">
+                      <img
+                        src="https://ui-avatars.com/api/?name=Ayşe+Yılmaz&background=10b981&color=fff"
+                        alt="Ayşe Yılmaz"
+                      />
+                    </div>
+                    <div>Ayşe Yılmaz</div>
+                  </div>
+                </td>
+                <td>35</td>
+                <td>$4,780</td>
+                <td><span class="badge bg-success">Aktif</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="avatar me-2">
+                      <img
+                        src="https://ui-avatars.com/api/?name=Mehmet+Demir&background=f59e0b&color=fff"
+                        alt="Mehmet Demir"
+                      />
+                    </div>
+                    <div>Mehmet Demir</div>
+                  </div>
+                </td>
+                <td>28</td>
+                <td>$3,650</td>
+                <td><span class="badge bg-warning text-dark">Beklemede</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <div class="avatar me-2">
+                      <img
+                        src="https://ui-avatars.com/api/?name=Fatma+Kaya&background=ef4444&color=fff"
+                        alt="Fatma Kaya"
+                      />
+                    </div>
+                    <div>Fatma Kaya</div>
+                  </div>
+                </td>
+                <td>23</td>
+                <td>$2,980</td>
+                <td><span class="badge bg-success">Aktif</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

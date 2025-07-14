@@ -1,0 +1,521 @@
+{
+  "products": [
+    {
+      "id": "ba3f",
+      "name": "iphone 16 pro",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+      "price": 90000,
+      "stock": 10,
+      "categoryId": "ba3f",
+      "categoryName": "Telefon",
+      "categoryUrl": "telefon"
+    },
+    {
+      "id": "e0a7",
+      "name": "apple ipad pro",
+      "imageUrl": "https://m.media-amazon.com/images/I/81c+9BOQNWL.jpg",
+      "price": 49999,
+      "stock": 50,
+      "categoryId": "2d32",
+      "categoryName": "Tablet",
+      "categoryUrl": "tablet"
+    },
+    {
+      "id": "1a15",
+      "name": "macbook pro ",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=892&hei=820&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWjZkZE52THZKR1lubXJyYmRyWWlhOXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "price": 89999,
+      "stock": 35,
+      "categoryId": "254b",
+      "categoryName": "Bilgisayar",
+      "categoryUrl": "bilgisayar"
+    },
+    {
+      "id": "a2d5",
+      "name": "Apple watch",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYPD3ref_VW_34FR+watch-case-49-titanium-black-ultra2_VW_34FR+watch-face-49-ocean-ultra2_VW_34FR_GEO_TR?wid=2000&hei=2000&fmt=png-alpha&.v=VEREVGFsQzRDQXZXemdUckh4dmo3M2pDV2hhem5qNnpDenFtKzI1OXdzWjRaeVR4RW9XWXhWVHRHeXZEa3AwcGZsNDErT2hQbWVmS0VCWlVweVY1UHBiVmVXUVJPYnV1S0FZc3FMLzd3SDRnWGJhejlLNXhYODlVTzA3R2NWaFB1QjEvVElDNEVIWVBRdVMvczhoN1UwOXZLK1NkNS9RWHBDOXNOcjBoT3gxUEVlQjdXZGFpUmlBZmRDRDZlc1pSZzdhU3dWWG5aL1pTWlJoTzRCMlJ4Zw",
+      "price": 55999,
+      "stock": 60,
+      "categoryId": "4704",
+      "categoryName": "Saat",
+      "categoryUrl": "saat"
+    },
+    {
+      "id": "f7dd",
+      "name": "logitech mx keys",
+      "imageUrl": "https://resource.logitech.com/w_800,c_lpad,ar_1:1,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mx-keys-combo-business-gen-2/gallery/mx-keys-combo-business-gen-2-gallery-us-graphite-1.png?v=1",
+      "price": 4199,
+      "stock": 35,
+      "categoryId": "6e68",
+      "categoryName": "Klavye",
+      "categoryUrl": "klavye"
+    }
+  ],
+  "categories": [
+    {
+      "id": "ba3f",
+      "name": "Telefon",
+      "url": "telefon"
+    },
+    {
+      "id": "2d32",
+      "name": "Tablet",
+      "url": "tablet"
+    },
+    {
+      "id": "4704",
+      "name": "Saat",
+      "url": "saat"
+    },
+    {
+      "id": "254b",
+      "name": "Bilgisayar",
+      "url": "bilgisayar"
+    },
+    {
+      "id": "6e68",
+      "name": "Klavye",
+      "url": "klavye"
+    },
+    {
+      "id": "b29a",
+      "name": "Mause",
+      "url": "mause"
+    },
+    {
+      "id": "bfd1",
+      "name": "Monitör",
+      "url": "monitor"
+    }
+  ],
+  "users": [
+    {
+      "id": "8ffc",
+      "firstName": "Ömer",
+      "lastName": "Özkan",
+      "fullName": "Ömer  Özkan",
+      "userName": "ozkan",
+      "email": "omerozkan@gmail.com",
+      "password": "1234",
+      "isAdmin": true
+    },
+    {
+      "id": "dd99",
+      "firstName": "omer",
+      "lastName": "ozkan",
+      "fullName": "omer  ozkan",
+      "userName": "omer",
+      "email": "omer@gmail.com",
+      "password": "12345",
+      "isAdmin": false
+    }
+  ],
+  "baskets": [],
+  "orders": [
+    {
+      "id": "c205",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752262303890",
+      "date": "2025-07-11T19:31:43.890Z",
+      "phoneNumber": "0538476819",
+      "city": "ankara",
+      "district": "merkez",
+      "fullAdress": "demokrasi mahallesi 2238 sokak no 7 daire 1 melikgazi/kayseri",
+      "cardNumber": "4343434343434343",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "4233",
+      "cvv": "434",
+      "installmentOptions": "3 Taksit",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": [
+        {
+          "id": "75b6",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 2
+        },
+        {
+          "id": "f725",
+          "userId": "8ffc",
+          "productId": "e0a7",
+          "productName": "apple ipad pro",
+          "productPrice": 49999,
+          "productImageUrl": "https://m.media-amazon.com/images/I/81c+9BOQNWL.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "39f8",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752262531007",
+      "date": "2025-07-11T19:35:31.007Z",
+      "phoneNumber": "0538476819",
+      "city": "istanbul",
+      "district": "merkez",
+      "fullAdress": "demokrasi mahallesi 2238 sokak no 7 daire 1 melikgazi/kayseri",
+      "cardNumber": "3434343434343434",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "4343",
+      "cvv": "434",
+      "installmentOptions": "3 Taksit",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": [
+        {
+          "id": "75b6",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 2
+        },
+        {
+          "id": "f725",
+          "userId": "8ffc",
+          "productId": "e0a7",
+          "productName": "apple ipad pro",
+          "productPrice": 49999,
+          "productImageUrl": "https://m.media-amazon.com/images/I/81c+9BOQNWL.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "de35",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752262638090",
+      "date": "2025-07-11T19:37:18.090Z",
+      "phoneNumber": "0538476819",
+      "city": "istanbul",
+      "district": "merkez",
+      "fullAdress": "demokrasi mahallesi 2238 sokak no 7 daire 1 melikgazi/kayseri",
+      "cardNumber": "3423423549698453",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "4343",
+      "cvv": "343",
+      "installmentOptions": "Tek çekim",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": [
+        {
+          "id": "75b6",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 2
+        },
+        {
+          "id": "f725",
+          "userId": "8ffc",
+          "productId": "e0a7",
+          "productName": "apple ipad pro",
+          "productPrice": 49999,
+          "productImageUrl": "https://m.media-amazon.com/images/I/81c+9BOQNWL.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "789e",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752262684121",
+      "date": "2025-07-11T19:38:04.121Z",
+      "phoneNumber": "0538476819",
+      "city": "istanbul",
+      "district": "merkez",
+      "fullAdress": "demokrasi mahallesi 2238 sokak no 7 daire 1 melikgazi/kayseri",
+      "cardNumber": "4343434342353252",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "4343",
+      "cvv": "434",
+      "installmentOptions": "Tek çekim",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": [
+        {
+          "id": "75b6",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 2
+        },
+        {
+          "id": "f725",
+          "userId": "8ffc",
+          "productId": "e0a7",
+          "productName": "apple ipad pro",
+          "productPrice": 49999,
+          "productImageUrl": "https://m.media-amazon.com/images/I/81c+9BOQNWL.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1f65",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752262787609",
+      "date": "2025-07-11T19:39:47.609Z",
+      "phoneNumber": "0538476819",
+      "city": "istanbul",
+      "district": "merkez",
+      "fullAdress": "demokrasi mahallesi 2238 sokak no 7 daire 1 melikgazi/kayseri",
+      "cardNumber": "4354534534534534",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "4343",
+      "cvv": "444",
+      "installmentOptions": "3 Taksit",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": []
+    },
+    {
+      "id": "3ca6",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752263331113",
+      "date": "2025-07-11T19:48:51.113Z",
+      "phoneNumber": "0538476819",
+      "city": "ankara",
+      "district": "merkez",
+      "fullAdress": "demokrasi mahallesi 2238 sokak no 7 daire 1 melikgazi/kayseri",
+      "cardNumber": "3424234343434344",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "3434",
+      "cvv": "478",
+      "installmentOptions": "3 Taksit",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": [
+        {
+          "id": "b9bb",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "a812",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "8c6c",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "9af8",
+      "fullName": "ömer",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752276715576",
+      "date": "2025-07-11T23:31:55.576Z",
+      "phoneNumber": "5435456354",
+      "city": "Adıyaman",
+      "district": "BESNİ",
+      "fullAddress": "sdsdsdsdsdsd",
+      "cardNumber": "4343434343434343",
+      "cardOwnerName": "öeöweöwöq",
+      "expiresDate": "3434",
+      "cvv": "423",
+      "installmentOptions": "Tek çekim",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": [
+        {
+          "id": "ac1d",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "54b1",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "36b2",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "d5b3",
+          "userId": "8ffc",
+          "productId": "f7dd",
+          "productName": "logitech mx keys",
+          "productPrice": 4199,
+          "productImageUrl": "https://resource.logitech.com/w_800,c_lpad,ar_1:1,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mx-keys-combo-business-gen-2/gallery/mx-keys-combo-business-gen-2-gallery-us-graphite-1.png?v=1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "d8c2",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752278979558",
+      "date": "2025-07-12T00:09:39.558Z",
+      "phoneNumber": "0538476819",
+      "city": "Kayseri",
+      "district": "DEVELİ",
+      "fullAddress": "demokrasi mahallesi 2238 sokak no 7 daire 1 melikgazi/kayseri",
+      "cardNumber": "2324234234234234",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "3232",
+      "cvv": "213",
+      "installmentOptions": "12 Taksit",
+      "status": "Siparişiniz hazırlanıyor",
+      "baskets": [
+        {
+          "id": "1548",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "5cdb",
+          "userId": "8ffc",
+          "productId": "e0a7",
+          "productName": "apple ipad pro",
+          "productPrice": 49999,
+          "productImageUrl": "https://m.media-amazon.com/images/I/81c+9BOQNWL.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "a2d4",
+          "userId": "8ffc",
+          "productId": "1a15",
+          "productName": "macbook pro ",
+          "productPrice": 89999,
+          "productImageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=892&hei=820&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWjZkZE52THZKR1lubXJyYmRyWWlhOXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+          "quantity": 1
+        },
+        {
+          "id": "0761",
+          "userId": "8ffc",
+          "productId": "a2d5",
+          "productName": "Apple watch",
+          "productPrice": 55999,
+          "productImageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYPD3ref_VW_34FR+watch-case-49-titanium-black-ultra2_VW_34FR+watch-face-49-ocean-ultra2_VW_34FR_GEO_TR?wid=2000&hei=2000&fmt=png-alpha&.v=VEREVGFsQzRDQXZXemdUckh4dmo3M2pDV2hhem5qNnpDenFtKzI1OXdzWjRaeVR4RW9XWXhWVHRHeXZEa3AwcGZsNDErT2hQbWVmS0VCWlVweVY1UHBiVmVXUVJPYnV1S0FZc3FMLzd3SDRnWGJhejlLNXhYODlVTzA3R2NWaFB1QjEvVElDNEVIWVBRdVMvczhoN1UwOXZLK1NkNS9RWHBDOXNOcjBoT3gxUEVlQjdXZGFpUmlBZmRDRDZlc1pSZzdhU3dWWG5aL1pTWlJoTzRCMlJ4Zw",
+          "quantity": 1
+        },
+        {
+          "id": "d02f",
+          "userId": "8ffc",
+          "productId": "f7dd",
+          "productName": "logitech mx keys",
+          "productPrice": 4199,
+          "productImageUrl": "https://resource.logitech.com/w_800,c_lpad,ar_1:1,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mx-keys-combo-business-gen-2/gallery/mx-keys-combo-business-gen-2-gallery-us-graphite-1.png?v=1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "d1f8",
+      "fullName": "Ömer Özkan",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752282650200",
+      "date": "2025-07-12T01:10:50.200Z",
+      "phoneNumber": "0538476819",
+      "city": "Adana",
+      "district": "ÇUKUROVA",
+      "fullAddress": "Demokrasi mahallesi 2238. sokak\nb1-2",
+      "cardNumber": "4234324234234324",
+      "cardOwnerName": "ömer ",
+      "expiresDate": "3432",
+      "cvv": "434",
+      "installmentOptions": "Tek çekim",
+      "status": "",
+      "baskets": [
+        {
+          "id": "3549",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "f769",
+      "fullName": "ömer",
+      "userId": "8ffc",
+      "orderNumber": "TS-2025-1752332433613",
+      "date": "2025-07-12T15:00:33.613Z",
+      "phoneNumber": "4343434343",
+      "city": "Karaman",
+      "district": "AYRANCI",
+      "fullAddress": "gsdgidg",
+      "cardNumber": "4243434343434343",
+      "cardOwnerName": "ömer özkan",
+      "expiresDate": "3232",
+      "cvv": "242",
+      "installmentOptions": "Tek çekim",
+      "status": "",
+      "baskets": [
+        {
+          "id": "0941",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "d655",
+          "userId": "8ffc",
+          "productId": "ba3f",
+          "productName": "iphone 16 pro",
+          "productPrice": 90000,
+          "productImageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-244_large.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "2f29",
+          "userId": "8ffc",
+          "productId": "e0a7",
+          "productName": "apple ipad pro",
+          "productPrice": 49999,
+          "productImageUrl": "https://m.media-amazon.com/images/I/81c+9BOQNWL.jpg",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
