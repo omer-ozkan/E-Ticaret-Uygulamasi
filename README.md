@@ -2,7 +2,7 @@
 
 Bu proje, Angular ve NX monorepo mimarisi ile geliştirilen, ölçeklenebilir bir e-ticaret platformudur. Uygulama, hem kullanıcıya yönelik bir e-ticaret arayüzünü (`ui`) hem de ürün ve sipariş yönetimini sağlayan bir admin panelini (`admin`) aynı monorepo çatısı altında barındırır.
 
-Modüler yapı korunmuş, Angular `module.ts` dosyaları silinmemiştir. Ortak bileşenler ve servisler `libs/` dizininde organize edilerek yeniden kullanılabilirlik sağlanmıştır. Proje, Angular Flex Layout ile responsive, modern ve yönetilebilir bir frontend mimarisi sunar.
+Proje, Angular Flex Layout ile responsive, modern ve yönetilebilir bir frontend mimarisi sunar.
 
 ##  Özellikler
 - NX monorepo yapısı
